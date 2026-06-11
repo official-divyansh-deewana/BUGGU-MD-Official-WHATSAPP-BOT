@@ -1,12 +1,12 @@
 {
-  "name": "Divyansh Deewana",
+  "name": "buggu-md-official",
   "version": "1.0.0",
-  "description": "A WhatsApp Bot Created To automate tasks",
+  "description": "A WhatsApp Bot Created To Automate Tasks",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name your name",
-    "stop": "pm2 stop Divyansh Deewana",
-    "restart": "pm2 Divyansh Deewana"
+    "start": "node index.js",
+    "stop": "echo Bot stopped",
+    "restart": "node index.js"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -32,5 +32,8 @@
     "util": "^0.12.4",
     "vm": "^0.1.0",
     "yt-search": "2.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
